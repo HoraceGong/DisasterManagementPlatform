@@ -3,16 +3,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--        <artifactId>spring-boot-starter-parent</artifactId>-->
+<!--        <version>3.3.4</version>-->
+<!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+
         <groupId>com.dmp</groupId>
         <artifactId>DisasterManagementPlatform</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
+
     <groupId>com.dmp</groupId>
-    <artifactId>User</artifactId>
+    <artifactId>Management</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>User</name>
-    <description>User</description>
+    <name>Management</name>
+    <description>Management</description>
     <url/>
     <licenses>
         <license/>

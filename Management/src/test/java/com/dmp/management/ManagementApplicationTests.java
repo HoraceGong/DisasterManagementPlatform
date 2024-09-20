@@ -1,10 +1,10 @@
-package com.dmp.user;
+package com.dmp.management;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UserApplicationTests {
+class ManagementApplicationTests {
 
     @Test
     void contextLoads() {

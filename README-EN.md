@@ -7,7 +7,7 @@ The core mission of the project is: the system provides national earthquake disa
 ## Catalog
 
 - System Functions
-- Architecture
+- Tech Stack & Architecture
 - Installation & Usage
 - Contribution
 - Licence

@@ -1,10 +1,10 @@
-package com.dmp.user;
+package com.dmp.upload;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UserApplicationTests {
+class UploadApplicationTests {
 
     @Test
     void contextLoads() {

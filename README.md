@@ -21,7 +21,7 @@
 ### 技术栈
 
 - 数据层：MySQL 8.0 + Redis + ElasticSearch + Minio
-- 业务层：SpringBoot + SpringCloud (Nacos) + JWT + MyBatis
+- 业务层：SpringBoot + SpringCloud + JWT + MyBatis
 - 消息队列：RabbitMQ
 - 依赖管理：Maven
 
