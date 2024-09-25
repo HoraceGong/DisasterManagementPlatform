@@ -1,0 +1,26 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+        - id: user-service # ?????????
+          uri: lb://userservice # ???????
+          predicates: # ???????????????
+            - Path=/user/** # ?????????????/user?????????
+        - id: upload-service
+          uri: lb://uploadservice
+          predicates:
+            - Path=/upload/**
+        - id: admin-service
+          uri: lb://adminservice
+          predicates:
+            - Path=/admin/**
+        - id: visualization-service
+          uri: lb://visualizationservice
+          predicates:
+            - Path=/visual/**
