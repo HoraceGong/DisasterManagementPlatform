@@ -1,4 +1,4 @@
-package com.dmp.user.utils;
+package com.dmp.user.common;
 
 /**
  * 提供byte数组和十六进制字符串之间的相互转换

@@ -2,16 +2,15 @@ package com.dmp.user.controller;
 
 import com.dmp.user.entity.User;
 import com.dmp.user.service.UserService;
-import com.dmp.user.utils.Result;
+import com.dmp.user.common.Result;
 import jakarta.annotation.Resource;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/user")
 public class LoginController {
 
-    @Autowired
+    @Resource
     private UserService userService;
 
     /**

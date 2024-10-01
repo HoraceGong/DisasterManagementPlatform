@@ -1,6 +1,6 @@
 package com.dmp.user;
 
-import com.dmp.user.utils.CodeUtils;
+import com.dmp.user.common.CodeUtils;
 import org.junit.jupiter.api.Test;
 
 import java.security.NoSuchAlgorithmException;

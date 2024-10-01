@@ -1,4 +1,4 @@
-package com.dmp.user.utils;
+package com.dmp.user.common;
 
 public class Result<T> {
     private String code;

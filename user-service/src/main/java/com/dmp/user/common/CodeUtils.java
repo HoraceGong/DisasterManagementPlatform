@@ -1,4 +1,4 @@
-package com.dmp.user.utils;
+package com.dmp.user.common;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
