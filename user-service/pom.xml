@@ -22,10 +22,17 @@
 
     <dependencies>
 
+        <!-- spring-boot-starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <!-- spring-boot-starter-security -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-security</artifactId>-->
+<!--        </dependency>-->
 
         <!-- Lombok -->
         <dependency>
@@ -104,6 +111,13 @@
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>${mybatis-springboot.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-jwt</artifactId>
+            <version>${hutool-jwt.version}</version>
+        </dependency>
+
 
     </dependencies>
 

@@ -30,6 +30,6 @@ public class SignUpController {
             return Result.error("10001", "用户名或密码为空");
         }
 
-        return userService.loginService(user);
+        return userService.signupService(user);
     }
 }

@@ -21,6 +21,7 @@
         <module>admin-service</module>
         <module>upload-service</module>
         <module>user-service</module>
+        <module>gateway</module>
     </modules>
 
     <properties>
@@ -37,6 +38,7 @@
         <mybatis.version>3.5.2</mybatis.version>
         <mybatis-springboot.version>3.0.3</mybatis-springboot.version>
         <junit.version>4.11</junit.version>
+        <hutool-jwt.version>5.8.32</hutool-jwt.version>
     </properties>
 
     <packaging>pom</packaging>
@@ -47,6 +49,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <!-- spring-boot-starter-security -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-security</artifactId>-->
+<!--        </dependency>-->
+
 
         <!-- Lombok -->
         <dependency>
@@ -125,6 +134,13 @@
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>${mybatis-springboot.version}</version>
+        </dependency>
+
+        <!-- hutool-jwt -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-jwt</artifactId>
+            <version>${hutool-jwt.version}</version>
         </dependency>
 
 

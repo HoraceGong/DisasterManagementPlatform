@@ -71,6 +71,8 @@ public class UserService{
             return Result.error("10001", "密码为空");
         }
 
+        //TODO: 添加create_time字段信息，避免数据库中该字段为null
+
         //将用户密码改为加密后的密码
         user.setPassword(encryptCode);
 
